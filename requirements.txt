@@ -1,4 +1,5 @@
 Flask
-gunicorn
+authlib
 panel
 bokeh
+tornado
