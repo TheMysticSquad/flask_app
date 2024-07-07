@@ -3,7 +3,7 @@ entrypoint: gunicorn -b :$PORT Flask_app:app
 
 env_variables:
   FLASK_ENV: 'production'
-  SECRET_KEY: '4565'
+  SECRET_KEY: 'flask_app'
 
 handlers:
 - url: /static
