@@ -5,8 +5,7 @@ from bokeh.server.server import Server
 from tornado.ioloop import IOLoop
 import json
 import threading
-from werkzeug.urls import url_quote
-
+from urllib.parse import quote as url_quote
 
 app = Flask(__name__)
 app.secret_key = 'flask_app'  # Replace with a secure random key
