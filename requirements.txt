@@ -1,6 +1,6 @@
 Flask==2.0.3
+Werkzeug==2.0.3
 authlib==1.0.0
 panel==0.13.1
 bokeh==2.4.2
 tornado==6.1
-gunicorn==20.1.0
